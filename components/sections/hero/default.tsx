@@ -48,7 +48,7 @@ export default function Hero({
       <span className="text-muted-foreground">
         New version of Launch UI is out!
       </span>
-      <a href={siteConfig.getStartedUrl} className="flex items-center gap-1">
+      <a href={siteConfig.url} className="flex items-center gap-1">
         Get started
         <ArrowRightIcon className="size-3" />
       </a>
@@ -56,13 +56,13 @@ export default function Hero({
   ),
   buttons = [
     {
-      href: siteConfig.getStartedUrl,
+      href: siteConfig.url,
       text: "Get Started",
       variant: "default",
     },
     {
       href: siteConfig.links.github,
-      text: "Github",
+      text: "Discord",
       variant: "glow",
       icon: <Github className="mr-2 size-4" />,
     },

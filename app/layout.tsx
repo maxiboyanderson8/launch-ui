@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     default: siteConfig.name,
     template: `%s - ${siteConfig.name}`,
   },
-  metadataBase: new URL(siteConfig.getStartedUrl),
+  metadataBase: new URL(siteConfig.url),
   description: siteConfig.description,
   keywords: [
     "Landing page template",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: siteConfig.getStartedUrl,
+    url: siteConfig.url,
     title: siteConfig.name,
     description: siteConfig.description,
     siteName: siteConfig.name,
