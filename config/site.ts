@@ -6,7 +6,10 @@ export const siteConfig = {
   links: {
     discord: "https://discord.gg/qSFpfAyuRw",
     email: "sbond@lumencorporation.xyz",
+    github: "https://discord.gg/qSFpfAyuRw",
+    twitter: "https://discord.gg/qSFpfAyuRw",
   },
+  ogImage: "/og.jpg",
   stats: {
     members: "200+",
     investors: "8",
